@@ -1,3 +1,4 @@
+import React from "react";
 import { Button, Form } from "react-bootstrap";
 
 const Login = () => {
@@ -20,8 +21,8 @@ const Login = () => {
           <Form.Check type="checkbox" label="Check me out" />
         </Form.Group>
         <Button   style={{ maxHeight : '2rem' }} variant="info" type="submit">
-              Submit
-            </Button>
+            Submit
+        </Button>
         
       </Form>
 

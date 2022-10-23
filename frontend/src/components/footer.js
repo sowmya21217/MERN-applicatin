@@ -1,3 +1,4 @@
+import React from "react";
 import { Col, Nav, Row } from "react-bootstrap";
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
         <p>Rome</p>
         <Nav.Link>k.l.sowmya219@gmail.com</Nav.Link>
       </Col>
-      <p style={{backgroundColor:"grey",  alignContent:"centre" }}>Web developer @sowmya kl</p>
+      <p style={{backgroundColor:"grey" }} className='text-center'>Web developer @sowmya kl</p>
     </Row>
   );
 };

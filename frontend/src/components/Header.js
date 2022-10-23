@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Navbar,
   Container,
@@ -8,6 +9,7 @@ import {
 } from "react-bootstrap";
 import { ReactComponent as Logo } from "../Images/image1.svg";
 import {LinkContainer} from 'react-router-bootstrap'
+
 
 const navbarStyle = {
   backgroundColor: "#CD5C5C",
